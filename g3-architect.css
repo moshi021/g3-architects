@@ -6,6 +6,14 @@
     font-family: 'Work Sans', sans-serif;
 
 }
+.primary_btn{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: 0;
+    margin-bottom: 32px;
+}
 
 /*header styles */
 header{
@@ -32,7 +40,7 @@ header{
 .nav{
     display: flex;
 
-    padding: 50px 240px;
+    padding: 50px 230px;
     justify-content: space-between;
 }
 
@@ -44,3 +52,21 @@ header{
 }
 
 /*banner style */
+.banner_text{
+    text-align: center;
+}
+.banner_text h3{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+  
+}
+.banner_text p{
+    margin-top: 5px;
+    color:#727272;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
