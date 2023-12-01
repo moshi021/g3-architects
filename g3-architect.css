@@ -38,7 +38,7 @@ header{
 
 .links li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 
@@ -81,38 +81,34 @@ header{
 /*responsive media qua*/
 
 @media screen and (max-width:576px) {
-    .nav{
-        padding: 20px;
-    }
-    .links li{
-        margin-right:15px ;
-    }
     .website_title{
-        font-size: 1.5rem;
+        font-size: 1.12rem;
     }
+    
+    .nav{
+        padding:5px 2px;
+    }
+    .links a{
+        font-size: 0.6rem;
+        
+    }
+
     .banner_text h3{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .banner_text p{
-        font-size: 0.5rem;
-    }
-    .banner_img{
-        margin-left: 40px;
-        width: 100%;
-    }
-    .primary_btn{
-        border-radius: 4px;
-        background: #FF900E;
-        width: 90px;
-        height: 32px;
         font-size: 0.6rem;
-        margin-bottom: 12px;
-        margin-top: 12px;
     }
-
     
-    
+    .primary_btn{
+        margin-top:11px ;
+        margin-bottom:11px;
+        width: 100px;
+        height: 40px;
+        border-radius: 2.5px;
+        font-size: 0.7rem;
 
+    }
     
 }
